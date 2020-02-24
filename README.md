@@ -6,15 +6,16 @@ Simple todo-list microservice app, which has:
 Crud  rest api operations using flask ,sqlAlchemy ,Flask-Marshmallow , Postman Client 
 
 With docker run:
-Files in project folder 
+Files in project folder. 
 
- 1.app.py													
- 2. requirements.txt 	
- 3. Dockerfile 	
+ 1.app.py
+ 2. requirements.txt
+ 3. Dockerfile	
  4.db.sqlite 	
 
 Docker build :
  docker build . -t todo_crud:newv1
+ 
 Docker run :
  docker run -p 5000:5000 740d9dbe4474
 
@@ -53,10 +54,14 @@ Without docker run
 
 1.Set environment:
   Python3 –version
+  
   pip3 install pipenv
+  
   pipenv shell
+  
   pipenv install flask flask-sqlalchemy flask-marshmallow 
   marshmallow-sqlalchemy
+  
 
 2.create db :python shell 
   from app import db
