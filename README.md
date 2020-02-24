@@ -19,7 +19,8 @@ Docker run :
  docker run -p 5000:5000 740d9dbe4474
 
 use postman client to send requests:
- set contenttype = application/josn in header 
+ set contenttype = application/josn in header.
+ 
  1.Add users:POST methos
  http://127.0.0.1:5000/user
  raw message
